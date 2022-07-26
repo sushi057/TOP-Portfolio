@@ -98,18 +98,20 @@ a{
 .info img{
     width: 150px;
     height: 150px;
-    border: 4px var(--button-color) solid;
+    border: 4px rgb(74, 109, 192) solid;
     border-radius: 20px;
 }
 
 #random-info{
     text-align: center;
+    font-size: 36px;
 }
 
 .character{
     display: flex;
+    flex: 1;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
     text-align: center;
     color: rgb(58, 55, 55);
     margin-top: 32px;

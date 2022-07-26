@@ -141,7 +141,7 @@ a{
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 40px 75px;
+    margin: 70px 100px;
     padding: 40px 75px;
     background-color: var(--button-color);
     color: var(--logo-color);

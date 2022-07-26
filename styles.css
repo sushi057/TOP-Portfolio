@@ -80,7 +80,7 @@ h1{
     color: var(--logo-color);
 }
 
-span{
+#logo{
     color: var(--button-color);
 }
 
@@ -116,4 +116,42 @@ a{
     color: rgb(58, 55, 55);
     margin-top: 32px;
     font-size: 18px;
+}
+
+
+.quote{
+    background-color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+}
+
+.quote p{
+    margin-bottom: 16px;    
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote span{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 75px;
+    padding: 40px 75px;
+    background-color: var(--button-color);
+    color: var(--logo-color);
+    border-radius: 12px;
+}
+
+#bottom-button{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: 3px white solid;
 }
